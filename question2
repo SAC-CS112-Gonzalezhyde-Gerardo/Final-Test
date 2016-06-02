@@ -1,0 +1,24 @@
+package finaltest;
+
+public class question2
+{
+ public static void main(String[]args)
+ {
+    System.out.println("After 30 minutes of flying...");
+    
+    fly Bird = new fly ("Bird", 10, 3);
+    System.out.println(Bird.About());
+    
+    fly Airplane = new fly ("Airplane", 450, 50);
+    System.out.println(Airplane.About());
+    
+    fly JetPlane = new fly ("JetPlane", 1000, 120);
+    System.out.println(JetPlane.About());
+    
+    fly Missle = new fly ("Missle", 2500, 800);
+    System.out.println(Missle.About());
+    
+    fly Superman = new fly ("Superman", 3500, 500);
+    System.out.println(Superman.About());    
+ }
+}
